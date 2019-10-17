@@ -1,0 +1,30 @@
+/ 定义一个函数，判断是否可上学。
+bool enterSchool(int age) {
+     if age < 6 {
+         return false;
+     }
+     return true;
+}
+
+int main() {
+    // 定义一群小朋友。
+    string, age childen[] = {
+        "Alan":6,
+        "Jack":7,
+        "Danni":5,
+        "Tara":7,
+        "Larry":7
+    }
+    // 保存可上学的小朋友。
+    string students[];
+    
+    int i = 0;
+    for (key, value in childen) {
+        if (enterSchool(value)) {
+            students[i] = key;
+            i = i + 1;
+        }
+    }
+    // 输出可上学的小朋友。
+    println(students);
+}
