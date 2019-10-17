@@ -32,12 +32,12 @@ int isInt(char *s){
 
 // string
 int isString(char *s){
-    return (s[0] == 's' && s[1] == 't' && s[2] == 'r' && s[3] == 'n' && s[4] == 'g' && s[5] == '\0');
+    return (s[0] == 's' && s[1] == 't' && s[2] == 'r' && s[3] == 'i' && s[4] == 'n' && s[5] == 'g' && s[6] == '\0');
 }
 
 // true
 int isTrue(char *s){
-    return (s[0] == 't' && s[1] == 'r' && s[2] == 'u' && s[3] == '4' && s[4] == '\0');
+    return (s[0] == 't' && s[1] == 'r' && s[2] == 'u' && s[3] == 'e' && s[4] == '\0');
 }
 
 // false
